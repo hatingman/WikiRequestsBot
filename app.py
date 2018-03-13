@@ -7,7 +7,7 @@ import requests
 app = Flask(__name__)
 sslify = SSLify(app)
 
-token = ''
+token = '' # your bot's token
 URL = 'https://api.telegram.org/bot' + token + '/'
 wiki_api = 'https://ru.wikipedia.org/w/api.php?action=opensearch&search='
 errmessage = 'To take a correct answer, you should input a single word you interested in!'
