@@ -9,7 +9,7 @@ sslify = SSLify(app)
 
 token = '' # your bot's token
 URL = 'https://api.telegram.org/bot' + token + '/'
-wiki_api = 'https://ru.wikipedia.org/w/api.php?action=opensearch&search='
+wiki_api = 'https://en.wikipedia.org/w/api.php?action=opensearch&search='
 errmessage = 'To take a correct answer, you should input a single word you interested in!'
 
 global last_update_id
